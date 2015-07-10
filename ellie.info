@@ -1,0 +1,26 @@
+name = ellie
+description = an ellie site
+core = 7.x
+
+; Optional: Mark your installation profile as exclusive, so that the installer
+; will auto-select it.
+exclusive = true
+
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
