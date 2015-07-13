@@ -47,8 +47,8 @@ projects[features][subdir] = "contrib"
 projects[ctools][version] = 1.7
 projects[ctools][subdir] = "contrib"
 
-projects[jquery_update][version] = 3.0-alpha1
-projects[jquery_update][subdir] = "contrib"
+projects[date][version] = 2.8
+projects[date][subdir] = "contrib"
 
 projects[email][version] = 1.3
 projects[email][subdir] = "contrib"
@@ -70,6 +70,9 @@ projects[entityreference][subdir] = "contrib"
 
 projects[eck][version] = 2.x-dev
 projects[eck][subdir] = "contrib"
+
+projects[jquery_update][version] = 3.0-alpha1
+projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = "contrib"

@@ -28,6 +28,7 @@ dependencies[] = text
 
 ; ellie - administration
 dependencies[] = module_filter
+
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 
@@ -45,10 +46,13 @@ dependencies[] = features
 ; ellie - general
 dependencies[] = ctools
 
-dependencies[] = jquery_update
+dependencies[] = date_api
+dependencies[] = date
 
 dependencies[] = link
+
 dependencies[] = email
+
 dependencies[] = field_group
 
 dependencies[] = ds
@@ -56,8 +60,12 @@ dependencies[] = ds_extras
 dependencies[] = ds_ui
 
 dependencies[] = entity
+
 dependencies[] = entityreference
+
 dependencies[] = eck
+
+dependencies[] = jquery_update
 
 dependencies[] = libraries
 
