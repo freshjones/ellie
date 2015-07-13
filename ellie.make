@@ -87,3 +87,9 @@ projects[views][version] = 3.x-dev
 projects[views][subdir] = "contrib"
 
 
+; THEMES
+projects[agency_one][type] = "theme"
+projects[agency_one][download][type] = "git"
+projects[agency_one][download][url] = "https://github.com/freshjones/agency_one_theme.git"
+
+

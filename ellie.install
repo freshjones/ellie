@@ -19,8 +19,10 @@ function ellie_install() {
 
   // Enable the admin theme.
   $admin_theme = 'seven';
-  theme_enable(array($admin_theme));
+  $theme = 'agency_one';
+  theme_enable(array($theme, $admin_theme,));
+  variable_set('theme_default', $theme);
   variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
-
+  theme_disable(array('bartik'));
 }
