@@ -6,6 +6,7 @@ core = 7.x
 ; will auto-select it.
 exclusive = true
 
+; ellie - core
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = dblog
@@ -24,3 +25,51 @@ dependencies[] = path
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
+
+; ellie - administration
+dependencies[] = module_filter
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; ellie - SEO
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = google_analytics
+dependencies[] = page_title
+dependencies[] = metatag
+
+; ellie - development
+dependencies[] = features
+
+; ellie - general
+dependencies[] = ctools
+
+dependencies[] = jquery_update
+
+dependencies[] = link
+dependencies[] = email
+dependencies[] = field_group
+
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_ui
+
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = eck
+
+dependencies[] = libraries
+
+dependencies[] = token
+
+dependencies[] = transliteration
+
+dependencies[] = views
+dependencies[] = views_ui
+
+
+
+
+
+

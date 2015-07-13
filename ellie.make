@@ -17,6 +17,7 @@ projects[module_filter][subdir] = "contrib"
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = "contrib"
 
+
 ; SEO
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = "contrib"
@@ -30,11 +31,56 @@ projects[globalredirect][subdir] = "contrib"
 projects[google_analytics][version] = 2.x-dev
 projects[google_analytics][subdir] = "contrib"
 
-projects[transliteration][version] = 3.2
-projects[transliteration][subdir] = "contrib"
-
 projects[page_title][version] = 2.x-dev
 projects[page_title][subdir] = "contrib"
 
 projects[metatag][version] = 1.0-rc2
 projects[metatag][subdir] = "contrib"
+
+
+; DEVELOPMENT
+projects[features][version] = 2.5
+projects[features][subdir] = "contrib"
+
+
+; GENERAL
+projects[ctools][version] = 1.7
+projects[ctools][subdir] = "contrib"
+
+projects[jquery_update][version] = 3.0-alpha1
+projects[jquery_update][subdir] = "contrib"
+
+projects[email][version] = 1.3
+projects[email][subdir] = "contrib"
+
+projects[link][version] = 1.3
+projects[link][subdir] = "contrib"
+
+projects[field_group][version] = 1.x-dev
+projects[field_group][subdir] = "contrib"
+
+projects[ds][version] = 2.10
+projects[ds][subdir] = "contrib"
+
+projects[entity][version] = 1.6
+projects[entity][subdir] = "contrib"
+
+projects[entityreference][version] = 1.x-dev
+projects[entityreference][subdir] = "contrib"
+
+projects[eck][version] = 2.x-dev
+projects[eck][subdir] = "contrib"
+
+projects[libraries][version] = 2.2
+projects[libraries][subdir] = "contrib"
+
+projects[token][version] = 1.6
+projects[token][subdir] = "contrib"
+
+projects[transliteration][version] = 3.2
+projects[transliteration][subdir] = "contrib"
+
+projects[views][version] = 3.x-dev
+projects[views][subdir] = "contrib"
+
+
