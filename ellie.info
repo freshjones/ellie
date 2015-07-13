@@ -36,7 +36,7 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = globalredirect
-dependencies[] = google_analytics
+dependencies[] = googleanalytics
 dependencies[] = page_title
 dependencies[] = metatag
 
