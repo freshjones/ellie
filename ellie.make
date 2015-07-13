@@ -22,7 +22,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = "contrib"
 
-projects[redirect][version] = 1.0-rc2
+projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = "contrib"
 
 projects[globalredirect][version] = 1.x-dev
@@ -34,12 +34,12 @@ projects[google_analytics][subdir] = "contrib"
 projects[page_title][version] = 2.x-dev
 projects[page_title][subdir] = "contrib"
 
-projects[metatag][version] = 1.0-rc2
+projects[metatag][version] = 1.6
 projects[metatag][subdir] = "contrib"
 
 
 ; DEVELOPMENT
-projects[features][version] = 2.5
+projects[features][version] = 2.6
 projects[features][subdir] = "contrib"
 
 
@@ -71,7 +71,7 @@ projects[entityreference][subdir] = "contrib"
 projects[eck][version] = 2.x-dev
 projects[eck][subdir] = "contrib"
 
-projects[jquery_update][version] = 3.0-alpha1
+projects[jquery_update][version] = 3.0-alpha2
 projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][version] = 2.2
