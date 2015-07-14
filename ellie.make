@@ -96,6 +96,12 @@ projects[views][version] = 3.x-dev
 projects[views][subdir] = "contrib"
 
 
+; CUSTOM
+projects[ellie_layout_templates][type] = module
+projects[ellie_layout_templates][subdir] = "custom"
+projects[ellie_layout_templates][download][type] = "git"
+projects[ellie_layout_templates][download][url] = "https://github.com/freshjones/Ellie-Page-Templates.git"
+
 ; THEMES
 projects[agency_one][type] = theme
 projects[agency_one][download][type] = "git"
