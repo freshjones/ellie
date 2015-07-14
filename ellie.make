@@ -42,6 +42,9 @@ projects[metatag][subdir] = "contrib"
 projects[features][version] = 2.6
 projects[features][subdir] = "contrib"
 
+projects[strongarm][version] = 2.x-dev
+projects[strongarm][subdir] = "contrib"
+
 
 ; GENERAL
 projects[ctools][version] = 1.7
@@ -58,6 +61,12 @@ projects[link][subdir] = "contrib"
 
 projects[field_group][version] = 1.x-dev
 projects[field_group][subdir] = "contrib"
+
+projects[panels][version] = 3.x-dev
+projects[panels][subdir] = "contrib"
+
+projects[panels_everywhere][version] = 1.x-dev
+projects[panels_everywhere][subdir] = "contrib"
 
 projects[ds][version] = 2.10
 projects[ds][subdir] = "contrib"
@@ -88,7 +97,7 @@ projects[views][subdir] = "contrib"
 
 
 ; THEMES
-projects[agency_one][type] = "theme"
+projects[agency_one][type] = theme
 projects[agency_one][download][type] = "git"
 projects[agency_one][download][url] = "https://github.com/freshjones/agency_one_theme.git"
 
