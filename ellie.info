@@ -42,6 +42,7 @@ dependencies[] = metatag
 
 ; ellie - development
 dependencies[] = features
+dependencies[] = strongarm
 
 ; ellie - general
 dependencies[] = ctools
