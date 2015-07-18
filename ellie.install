@@ -36,7 +36,7 @@ function ellie_install() {
     $defaultHandlers[$siteTemplate] = FALSE;
   }
   
-  if(!empty($handlers)) 
+  if(!empty($defaultHandlers)) 
   {
     variable_set('default_page_manager_handlers', $defaultHandlers );
   }
