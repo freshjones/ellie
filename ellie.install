@@ -26,9 +26,58 @@ function ellie_install() {
   variable_set('node_admin_theme', '1');
   theme_disable(array('bartik'));
 
-  $handlers = array();
-  $handlers['site_template__agency-three'] = FALSE;
+  $defaultHandlers = array();
 
-  variable_set('default_page_manager_handlers', $handlers );
+  //set the site template
+  $selected = 'two';
+  $siteTemplate = _setCorrectSiteTemplate($selected);
+  if($siteTemplate)
+  {
+    $defaultHandlers[$siteTemplate] = FALSE;
+  }
+  
+  if(!empty($handlers)) 
+  {
+    variable_set('default_page_manager_handlers', $defaultHandlers );
+  }
+
+}
+
+function _setCorrectSiteTemplate($selected)
+{
+
+   // The node template is managed by Page Manager as is known as a 'task';
+    $task = page_manager_get_task('site_template');
+
+    ctools_get_plugins('page_manager', 'task_handlers', 'panel_context');
+
+    //load in all handlers
+    $handlers = page_manager_load_sorted_handlers($task);
+
+    if( is_array($handlers) && !empty($handlers) )
+    {
+
+      $keys = array_keys($handlers);
+
+      /* set a default template */
+    $activeTemplate = $keys[0];
+
+    foreach($keys AS $key)
+    {
+      $delimiter = stripos($key, '-');
+      
+      $suffix = trim(substr($key, $delimiter+1));
+
+      if($suffix == $selected)
+      {
+        $activeTemplate = $key;
+      }
+
+    }
+
+
+  } 
+
+  return isset($activeTemplate) ? $activeTemplate : false;
 
 }
