@@ -25,4 +25,5 @@ function ellie_install() {
   variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
   theme_disable(array('bartik'));
+
 }

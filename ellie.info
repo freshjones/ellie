@@ -84,7 +84,7 @@ dependencies[] = views_ui
 
 ; ellie - custom
 dependencies[] = ellie_layout_templates
-
+dependencies[] = ellie_panels_editor
 
 
 
