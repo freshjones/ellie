@@ -82,6 +82,9 @@ dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_ui
 
+dependencies[] = migrate
+; dependencies[] = migrate_ui
+
 ; ellie - custom
 dependencies[] = ellie_layout_templates
 dependencies[] = ellie_panels_editor

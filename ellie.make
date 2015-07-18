@@ -98,6 +98,9 @@ projects[transliteration][subdir] = "contrib"
 projects[views][version] = 3.x-dev
 projects[views][subdir] = "contrib"
 
+projects[migrate][version] = 2.8
+projects[migrate][subdir] = "contrib"
+
 
 ; CUSTOM
 projects[ellie_layout_templates][type] = module
