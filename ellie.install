@@ -29,7 +29,7 @@ function ellie_install() {
   $defaultHandlers = array();
 
   //set the site template
-  $selected = 'three';
+  $selected = 'two';
   $siteTemplate = _setCorrectSiteTemplate($selected);
   if($siteTemplate)
   {
