@@ -110,6 +110,12 @@ projects[ellie_panels_editor][subdir] = "custom"
 projects[ellie_panels_editor][download][type] = "git"
 projects[ellie_panels_editor][download][url] = "https://github.com/freshjones/Ellie-Panels-Editor.git"
 
+projects[ellie_content_types][type] = module
+projects[ellie_content_types][subdir] = "custom"
+projects[ellie_content_types][download][type] = "git"
+projects[ellie_content_types][download][url] = "https://github.com/freshjones/Ellie-Content-Types.git"
+
+
 ; THEMES
 projects[agency_one][type] = theme
 projects[agency_one][download][type] = "git"
