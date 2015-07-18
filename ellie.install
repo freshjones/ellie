@@ -62,7 +62,7 @@ function _disableSiteTemplates($selected)
 
         if($suffix != $selected)
         {
-          $disabledHandlers[$key] = FALSE;
+          $disabledHandlers[$key] = TRUE;
         }
 
       }
