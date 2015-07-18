@@ -26,4 +26,7 @@ function ellie_install() {
   variable_set('node_admin_theme', '1');
   theme_disable(array('bartik'));
 
+  $siteTemplate = 'site_template__agency-one';
+  variable_set('default_page_manager_handlers', array($siteTemplate => FALSE) );
+
 }
