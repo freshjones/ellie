@@ -33,6 +33,12 @@ function ellie_install() {
   $disabledHandlers = _disableSiteTemplates($selected);
   variable_set('default_page_manager_handlers', $disabledHandlers );
   
+  //set the pattern path for the defaults
+  variable_set('pathauto_node_pattern', '[node:title]');
+
+  //set homepage
+  variable_set('site_frontpage', 'node/1');
+  
 }
 
 function _disableSiteTemplates($selected)
