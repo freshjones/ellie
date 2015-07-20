@@ -82,6 +82,7 @@ projects[entityreference][subdir] = "contrib"
 
 projects[eck][version] = 2.x-dev
 projects[eck][subdir] = "contrib"
+projects[eck][patch][] = "https://www.drupal.org/files/issues/eck-array_keys_error-2289241-15.patch"
 
 projects[jquery_update][version] = 3.0-alpha2
 projects[jquery_update][subdir] = "contrib"
