@@ -37,7 +37,7 @@ function ellie_install() {
   variable_set('pathauto_node_pattern', '[node:title]');
 
   //set homepage
-  variable_set('site_frontpage', 'node/1');
+  variable_set('site_frontpage', 'welcome');
   
 }
 
