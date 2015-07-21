@@ -103,31 +103,6 @@ projects[migrate][version] = 2.8
 projects[migrate][subdir] = "contrib"
 
 
-; The Panopoly Foundation
-
-projects[panopoly_core][version] = 1.25
-projects[panopoly_core][subdir] = panopoly
-
-projects[panopoly_images][version] = 1.25
-projects[panopoly_images][subdir] = panopoly
-
-projects[panopoly_theme][version] = 1.25
-projects[panopoly_theme][subdir] = panopoly
-
-projects[panopoly_magic][version] = 1.25
-projects[panopoly_magic][subdir] = panopoly
-
-projects[panopoly_widgets][version] = 1.25
-projects[panopoly_widgets][subdir] = panopoly
-
-projects[panopoly_admin][version] = 1.25
-projects[panopoly_admin][subdir] = panopoly
-
-projects[panopoly_users][version] = 1.25
-projects[panopoly_users][subdir] = panopoly
-
-
-
 ; CUSTOM
 projects[ellie_layout_templates][type] = module
 projects[ellie_layout_templates][subdir] = "custom"
