@@ -84,6 +84,7 @@ dependencies[] = views_ui
 
 dependencies[] = migrate
 dependencies[] = migrate_ui
+dependencies[] = migrate_extras
 
 ; ellie - custom
 dependencies[] = ellie_layout_templates
