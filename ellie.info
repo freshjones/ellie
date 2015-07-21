@@ -85,6 +85,15 @@ dependencies[] = views_ui
 dependencies[] = migrate
 dependencies[] = migrate_ui
 
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
 ; ellie - custom
 dependencies[] = ellie_layout_templates
 dependencies[] = ellie_panels_editor
