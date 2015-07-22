@@ -127,6 +127,12 @@ projects[ellie_content_migrations][subdir] = "custom"
 projects[ellie_content_migrations][download][type] = "git"
 projects[ellie_content_migrations][download][url] = "https://github.com/freshjones/Ellie-Content-Migrations.git"
 
+projects[ellie_extras][type] = module
+projects[ellie_extras][subdir] = "custom"
+projects[ellie_extras][download][type] = "git"
+projects[ellie_extras][download][url] = "https://github.com/freshjones/Ellie-Extras.git"
+
+
 ; THEMES
 projects[agency_one][type] = theme
 projects[agency_one][download][type] = "git"

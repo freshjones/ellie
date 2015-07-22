@@ -91,4 +91,5 @@ dependencies[] = ellie_layout_templates
 dependencies[] = ellie_panels_editor
 dependencies[] = ellie_content_types
 dependencies[] = ellie_content_migrations
+dependencies[] = ellie_extras
 
