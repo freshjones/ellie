@@ -76,6 +76,7 @@ projects[ds][subdir] = "contrib"
 
 projects[entity][version] = 1.6
 projects[entity][subdir] = "contrib"
+projects[entity][patch][] = "https://www.drupal.org/files/issues/2086225-entity-access-check-18.patch"
 
 projects[entityreference][version] = 1.x-dev
 projects[entityreference][subdir] = "contrib"
