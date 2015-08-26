@@ -1,6 +1,6 @@
 api = 2
 core = 7.x
-projects[drupal][version] = 7.38
+projects[drupal][version] = 7.39
 
 ; Download the install profile and recursively build all its dependencies
 projects[ellie][type] = "profile"
