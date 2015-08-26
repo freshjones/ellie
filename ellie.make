@@ -135,8 +135,8 @@ projects[ellie_extras][download][url] = "https://github.com/freshjones/Ellie-Ext
 
 
 ; THEMES
-projects[ellie_blank][type] = theme
-projects[ellie_blank][download][type] = "git"
-projects[ellie_blank][download][url] = "https://github.com/freshjones/ellie-blank-theme.git"
+projects[ymca_one][type] = theme
+projects[ymca_one][download][type] = "git"
+projects[ymca_one][download][url] = "https://github.com/freshjones/ymca-one-theme.git"
 
 
