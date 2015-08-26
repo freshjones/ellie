@@ -19,7 +19,7 @@ function ellie_install() {
 
   // Enable the admin theme.
   $admin_theme = 'seven';
-  $theme = 'ellie_blank';
+  $theme = 'ymca_one';
   theme_enable(array($theme, $admin_theme,));
   variable_set('theme_default', $theme);
   variable_set('admin_theme', $admin_theme);
