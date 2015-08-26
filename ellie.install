@@ -35,9 +35,6 @@ function ellie_install() {
   
   //set the pattern path for the defaults
   variable_set('pathauto_node_pattern', '[node:title]');
-
-  //set homepage
-  variable_set('site_frontpage', 'node/1');
   
 }
 

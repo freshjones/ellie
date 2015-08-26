@@ -76,12 +76,14 @@ projects[ds][subdir] = "contrib"
 
 projects[entity][version] = 1.6
 projects[entity][subdir] = "contrib"
+projects[entity][patch][] = "https://www.drupal.org/files/issues/2086225-entity-access-check-18.patch"
 
 projects[entityreference][version] = 1.x-dev
 projects[entityreference][subdir] = "contrib"
 
 projects[eck][version] = 2.x-dev
 projects[eck][subdir] = "contrib"
+projects[eck][patch][] = "https://www.drupal.org/files/issues/eck-array_keys_error-2289241-15.patch"
 
 projects[jquery_update][version] = 3.0-alpha2
 projects[jquery_update][subdir] = "contrib"
@@ -100,6 +102,9 @@ projects[views][subdir] = "contrib"
 
 projects[migrate][version] = 2.8
 projects[migrate][subdir] = "contrib"
+
+projects[migrate_extras][version] = 2.x-dev
+projects[migrate_extras][subdir] = "contrib"
 
 
 ; CUSTOM
@@ -122,6 +127,12 @@ projects[ellie_content_migrations][type] = module
 projects[ellie_content_migrations][subdir] = "custom"
 projects[ellie_content_migrations][download][type] = "git"
 projects[ellie_content_migrations][download][url] = "https://github.com/freshjones/Ellie-Content-Migrations.git"
+
+projects[ellie_extras][type] = module
+projects[ellie_extras][subdir] = "custom"
+projects[ellie_extras][download][type] = "git"
+projects[ellie_extras][download][url] = "https://github.com/freshjones/Ellie-Extras.git"
+
 
 ; THEMES
 projects[agency_one][type] = theme
