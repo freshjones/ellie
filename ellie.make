@@ -50,7 +50,7 @@ projects[strongarm][subdir] = "contrib"
 projects[ctools][version] = 1.9
 projects[ctools][subdir] = "contrib"
 projects[ctools][patch][] = "https://www.drupal.org/files/issues/ctools-offset-rendering-2456327-7.patch"
-projects[ctools][patch][] = "https://www.drupal.org/files/issues/error_cloning_variant-2445203-7.patch"
+;projects[ctools][patch][] = "https://www.drupal.org/files/issues/error_cloning_variant-2445203-7.patch"
 
 
 projects[date][version] = 2.8
