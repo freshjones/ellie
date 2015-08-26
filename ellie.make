@@ -137,6 +137,6 @@ projects[ellie_extras][download][url] = "https://github.com/freshjones/Ellie-Ext
 ; THEMES
 projects[agency_one][type] = theme
 projects[agency_one][download][type] = "git"
-projects[agency_one][download][url] = "https://github.com/freshjones/agency_one_theme.git"
+projects[agency_one][download][url] = "https://github.com/freshjones/ellie-blank-theme.git"
 
 
