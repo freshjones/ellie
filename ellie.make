@@ -34,7 +34,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[page_title][version] = 2.x-dev
 projects[page_title][subdir] = "contrib"
 
-projects[metatag][version] = 1.6
+projects[metatag][version] = 1.7
 projects[metatag][subdir] = "contrib"
 
 
@@ -47,7 +47,7 @@ projects[strongarm][subdir] = "contrib"
 
 
 ; GENERAL
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 projects[ctools][subdir] = "contrib"
 projects[ctools][patch][] = "https://www.drupal.org/files/issues/ctools-offset-rendering-2456327-7.patch"
 projects[ctools][patch][] = "https://www.drupal.org/files/issues/error_cloning_variant-2445203-7.patch"
@@ -71,7 +71,7 @@ projects[panels][subdir] = "contrib"
 projects[panels_everywhere][version] = 1.x-dev
 projects[panels_everywhere][subdir] = "contrib"
 
-projects[ds][version] = 2.10
+projects[ds][version] = 2.11
 projects[ds][subdir] = "contrib"
 
 projects[entity][version] = 1.6
