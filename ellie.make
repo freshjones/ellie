@@ -133,6 +133,10 @@ projects[ellie_extras][subdir] = "custom"
 projects[ellie_extras][download][type] = "git"
 projects[ellie_extras][download][url] = "https://github.com/freshjones/Ellie-Extras.git"
 
+projects[ellie_panes][type] = module
+projects[ellie_panes][subdir] = "custom"
+projects[ellie_panes][download][type] = "git"
+projects[ellie_panes][download][url] = "https://github.com/freshjones/Ellie-Panes.git"
 
 ; THEMES
 projects[ymca_one][type] = theme
