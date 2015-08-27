@@ -26,10 +26,18 @@ function ellie_install() {
   variable_set('node_admin_theme', '1');
   theme_disable(array('bartik'));
 
-  $defaultHandlers = array();
-
   //set the site template
   $selected = 'two';
+  $color = 'blue';
+
+  $ellieSettings = array();
+
+  $ellieSettings['active_theme_key']    = $selected;
+  $ellieSettings['active_theme_color']  = $color;
+
+  variable_set('ellie_settings', $ellieSettings);
+
+  $defaultHandlers = array();  
   $disabledHandlers = _disableSiteTemplates($selected);
   variable_set('default_page_manager_handlers', $disabledHandlers );
   
