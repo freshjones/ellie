@@ -57,6 +57,12 @@ function _disableSiteTemplates($selected)
     //load in all handlers
     $handlers = page_manager_load_sorted_handlers($task);
 
+    //remove first handler
+    if(isset($handlers['site_template__blank']))
+    {
+      unset($handlers['site_template__blank']);
+    }
+
     if( is_array($handlers) && !empty($handlers) )
     {
 

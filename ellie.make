@@ -138,9 +138,32 @@ projects[ellie_panes][subdir] = "custom"
 projects[ellie_panes][download][type] = "git"
 projects[ellie_panes][download][url] = "https://github.com/freshjones/Ellie-Panes.git"
 
+
 ; THEMES
 projects[ymca_one][type] = theme
 projects[ymca_one][download][type] = "git"
 projects[ymca_one][download][url] = "https://github.com/freshjones/ymca-one-theme.git"
+
+
+; LIBRARIES
+libraries[angular][download][type] = "file"
+libraries[angular][download][url] = "https://code.angularjs.org/1.4.4/angular.min.js"
+libraries[angular-resource][destination] = "libraries"
+
+libraries[angular-animate][download][type] = "file"
+libraries[angular-animate][download][url] = "https://code.angularjs.org/1.4.4/angular-animate.min.js"
+libraries[angular-animate][destination] = "libraries/angular"
+
+libraries[angular-resource][download][type] = "file"
+libraries[angular-resource][download][url] = "https://code.angularjs.org/1.4.4/angular-resource.min.js"
+libraries[angular-resource][destination] = "libraries/angular"
+
+libraries[ui-router][download][type] = "file"
+libraries[ui-router][download][url] = "https://raw.githubusercontent.com/angular-ui/ui-router/0.2.15/release/angular-ui-router.min.js"
+libraries[ui-router][destination] = "libraries/angular"
+
+
+
+
 
 
