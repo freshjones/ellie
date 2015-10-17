@@ -19,7 +19,7 @@ projects[admin_menu][subdir] = "contrib"
 
 
 ; SEO
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 projects[pathauto][subdir] = "contrib"
 
 projects[redirect][version] = 1.0-rc3
@@ -39,7 +39,7 @@ projects[metatag][subdir] = "contrib"
 
 
 ; DEVELOPMENT
-projects[features][version] = 2.6
+projects[features][version] = 2.7
 projects[features][subdir] = "contrib"
 
 projects[strongarm][version] = 2.x-dev
@@ -53,7 +53,7 @@ projects[ctools][patch][] = "https://www.drupal.org/files/issues/ctools-offset-r
 ;projects[ctools][patch][] = "https://www.drupal.org/files/issues/error_cloning_variant-2445203-7.patch"
 
 
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 projects[date][subdir] = "contrib"
 
 projects[email][version] = 1.3
